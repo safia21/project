@@ -1,0 +1,53 @@
+# Logs et fichiers temporaires
+*.log
+*.tmp
+*.pid
+*.gz
+
+# Systèmes d'exploitation
+.DS_Store        # macOS
+Thumbs.db        # Windows
+ehthumbs.db      # Windows
+desktop.ini      # Windows
+
+# Dossiers de dépendances
+node_modules/    # Node.js
+vendor/          # PHP (Composer)
+
+# Fichiers de configuration spécifiques
+.env             # Variables d'environnement
+.env.local
+.env.*.local
+.idea/           # JetBrains IDE (PhpStorm, WebStorm)
+.vscode/         # Visual Studio Code
+
+# Fichiers de build
+dist/
+build/
+out/
+coverage/        # Tests de couverture
+
+# Bases de données locales
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Cache
+.cache/
+tmp/
+cache/
+
+# Fichiers générés
+*.lock           # Fichiers de verrouillage (composer.lock, yarn.lock)
+*.bak
+*.swp
+*.orig
+
+# Clés et certificats
+*.pem
+*.key
+*.crt
+/node_modules
+/dist
+.env
